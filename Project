@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Redhammer Remodeling</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/">Redhammer Remodeling</a>
+      <nav>
+        <a href="/">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Projects</h1>
+    <p>Gallery of recent work. Replace placeholders with real project photos and descriptions.</p>
+    <div class="grid project-grid">
+      <div class="project-card"><img src="assets/images/project1.svg" alt="" /><h3>Project One</h3></div>
+      <div class="project-card"><img src="assets/images/project2.svg" alt="" /><h3>Project Two</h3></div>
+      <div class="project-card"><img src="assets/images/project3.svg" alt="" /><h3>Project Three</h3></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Redhammer Remodeling</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
