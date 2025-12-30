@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Redhammer Remodeling</title>
+  <meta name="description" content="Redhammer Remodeling — Quality home renovation and remodeling services." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/">Redhammer Remodeling</a>
+      <nav>
+        <a href="/">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Renovate. Restore. Reimagine.</h1>
+        <p>We deliver high-quality home remodeling with attention to detail and craftsmanship.</p>
+        <a class="btn" href="contact.html">Get a Free Estimate</a>
+      </div>
+    </section>
+
+    <section class="services container">
+      <h2>Our Services</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Kitchen Remodeling</h3>
+          <p>Custom cabinets, countertops, lighting, and layout planning.</p>
+        </div>
+        <div class="card">
+          <h3>Bathroom Renovation</h3>
+          <p>Showers, tubs, tile work, and fixtures with modern finishes.</p>
+        </div>
+        <div class="card">
+          <h3>Home Additions</h3>
+          <p>Seamless additions that increase living space and value.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects container" id="projects">
+      <h2>Featured Projects</h2>
+      <div class="grid">
+        <div class="project-card">
+          <img src="assets/images/project1.svg" alt="Project 1 — Kitchen remodel" />
+          <h4>Cozy Kitchen Makeover</h4>
+        </div>
+        <div class="project-card">
+          <img src="assets/images/project2.svg" alt="Project 2 — Bathroom remodel" />
+          <h4>Modern Spa Bathroom</h4>
+        </div>
+        <div class="project-card">
+          <img src="assets/images/project3.svg" alt="Project 3 — Home addition" />
+          <h4>Sunroom Addition</h4>
+        </div>
+      </div>
+      <p class="muted">Replace the placeholder images in assets/images/ with real photos of your work.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Redhammer Remodeling — Licensed &amp; Insured</p>
+      <p><a href="contact.html">Contact</a> • <a href="privacy.html">Privacy</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
